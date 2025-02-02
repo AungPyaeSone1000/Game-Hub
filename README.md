@@ -1,30 +1,59 @@
-# React + TypeScript + Vite
+# 🎮 Game Hub – A Game Info Hub  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Game Hub is a web application that allows users to browse, search, and discover games. It provides an intuitive interface for game enthusiasts to find and manage their favorite games.  
+The website is accessible at [Game-Hub](https://game-hub-bay-two.vercel.app/)
 
-Currently, two official plugins are available:
+![Website Screenshot](src/assets/GameHubImage.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features  
 
-## Expanding the ESLint configuration
+- 🔍 **Game Search** – Easily find games by name, genre, or rating  
+- ⭐ **Favorites System** – Save your favorite games for quick access  
+- 📝 **Game Details** – View game descriptions, ratings, and screenshots  
+- 🎮 **Responsive Design** – Optimized for all screen sizes  
+- 🌙 **Dark/Light Theme Toggle** – Switch between light and dark modes  
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
+## 🛠 Technologies Used  
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- **React**
+- **Typescript**
+- **Chakara UI**  
+- **RAWG API** – External API for fetching game details  
+- **Vercel** – Deployed for live access  
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## 🚀 Getting Started  
+
+To get a local copy of the project up and running, follow these steps:  
+
+
+### 📥 Installation  
+
+1️⃣ **Clone the repository:**  
+```bash
+git clone https://github.com/AungPyaeSone1000/Game-Hub.git
+cd Game-Hub
+```  
+
+2️⃣ **Install dependencies:**  
+```bash
+npm install
+# or
+yarn install
+```  
+
+3️⃣ **Run the development server:**  
+```bash
+npm run dev
+# or
+yarn dev
+```  
+
+🔥 Open [http://localhost:3000](http://localhost:3000) in your browser to see the result!  
+
+## 🤝 Contributing  
+
+Contributions are welcome! 🎉 Fork the repository and submit a pull request for any enhancements or bug fixes.  
+
+
+
