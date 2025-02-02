@@ -8,7 +8,6 @@ The website is accessible at [Game-Hub](https://game-hub-bay-two.vercel.app/)
 ## ✨ Features  
 
 - 🔍 **Game Search** – Easily find games by name, genre, or rating  
-- ⭐ **Favorites System** – Save your favorite games for quick access  
 - 📝 **Game Details** – View game descriptions, ratings, and screenshots  
 - 🎮 **Responsive Design** – Optimized for all screen sizes  
 - 🌙 **Dark/Light Theme Toggle** – Switch between light and dark modes  
